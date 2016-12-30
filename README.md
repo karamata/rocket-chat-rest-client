@@ -30,23 +30,16 @@ rc.send("test", "Hello from REST client" + new Date());
 rc.logout();
 ```
 
-### Maven
-```xml
-<repositories>
-	<repository>
-		<id>jitpack.io</id>
-		 <url>https://jitpack.io</url>
-	</repository>
-</repositories>
-	
-<dependencies>
-	<dependency>
-		<groupId>com.github.baloise</groupId>
-		<artifactId>rocket-chat-rest-client</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
-	</dependency>
-</dependencies>
-```
+### build docker images
+
+Step 1 : download docker from here https://www.docker.com/ install and start docker
+
+Step 2 : build our images by using docker-compose
+
+# docker-compose build
+
+Step 3 : run our images
+# docker-compose run
 
 ### Compiling
 
