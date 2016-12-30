@@ -1,0 +1,12 @@
+rocketchat:
+  build: ./rocketchat
+  ports:
+    - "80:3000"
+  links:
+    - mongo
+  tty: true
+ 
+mongo:
+  build: ./mongo
+  ports:
+    - "27017:27017"
