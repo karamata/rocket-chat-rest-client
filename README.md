@@ -36,10 +36,10 @@ Step 1 : download docker from here https://www.docker.com/ install and start doc
 
 Step 2 : build our images by using docker-compose
 
-# docker-compose build
+$ docker-compose build
 
 Step 3 : run our images
-# docker-compose run
+$ docker-compose up
 
 ### Compiling
 
@@ -51,7 +51,4 @@ mvn clean install
 
 To keep the docker containers running:
 
-```
-mvn -Ddocker.keepRunning clean install
-```
 
